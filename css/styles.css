@@ -1,0 +1,41 @@
+header {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    justify-items: center;
+}
+h1{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-color: teal;
+
+}
+
+.container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+p{
+    border: 1px solid black;
+    border-radius: 1px;
+    background-color: gold;
+    width: 700px;
+}
+
+img{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color:rgb(77, 5, 108);
+}

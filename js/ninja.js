@@ -1,0 +1,29 @@
+$(document).ready(function(){
+    $('.knee').click(function(){
+        $('.knee').hide();
+    })
+    $('.pose').click(function(){
+        $('.pose').hide();
+    })
+    $('.back').click(function(){
+        $(this).hide();
+    })
+    $('.style').click(function(){
+        $(this).hide();
+    })
+    $('.kick').click(function(){
+        $(this).hide();
+    })
+    $('.jump').click(function(){
+        $(this).hide();
+    })
+    $('.fly').click(function(){
+        $(this).hide();
+    })
+    $('.dash').click(function(){
+        $(this).hide();
+    })
+    $('button').click(function(){
+        $('img').show();
+    })
+})
